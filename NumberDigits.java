@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class NumberofDigitsUsingWhile 
+class NumberofDigitsUsingWhile 
 {
 	private static Scanner sc;
 	
