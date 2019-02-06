@@ -1,12 +1,15 @@
 import java.util.Scanner;
  
-class NoHello
+public class NoHello
 {
   public static void main(String args[])
   {
     int n,i;
-    System.out.println("Input");
-    Scanner n = new Scanner(System.in);
+    
+    Scanner in = new Scanner(System.in);
+    n=in.nextInt();
+    
+    
  for(i=1;i<=n;i++)
  {
  System.out.println("Hello");
