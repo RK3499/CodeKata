@@ -16,9 +16,13 @@ class Odd_Even
                 
                 System.out.println("Even");
             }
-            else
+            else if(n%2!=0)
             {
                 System.out.println("Odd");
+            }
+            else
+            {
+                System.out.println("Invalid");
             }
         }
         catch(Exception e)
