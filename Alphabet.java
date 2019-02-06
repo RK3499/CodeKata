@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Alphabet {
+class Alphabet {
 
     public static void main(String[] args) {
 
