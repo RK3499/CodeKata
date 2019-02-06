@@ -7,21 +7,20 @@ class Postive_Negative
         try
         {
             Scanner s = new Scanner(System.in);
-            System.out.print("INPUT");
+            System.out.print("Input:\n");
             int n = s.nextInt();
+            System.out.println("\nOutput:\n");
             if(n > 0)
             {
-                System.out.println("OUTPUT");
+                
                 System.out.println("Positive");
             }
             else if(n < 0)
             {
-                System.out.println("OUTPUT");
                 System.out.println("Negative");
             }
             else
             {
-                System.out.println("OUTPUT");
                 System.out.println("Zero");
             }
         }
