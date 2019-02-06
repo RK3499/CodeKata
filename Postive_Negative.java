@@ -10,7 +10,7 @@ class Postive_Negative
             System.out.print("Input:\n");
             int n = s.nextInt();
             System.out.print(n);
-            System.out.println("\nOutput:\n");
+            System.out.println("Output:");
             if(n > 0)
             {
                 
