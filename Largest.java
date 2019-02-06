@@ -12,7 +12,7 @@ class Largest
     y = in.nextInt();
     z = in.nextInt();
   System.out.println(x+"\t"+y+"\t"+z+"\n");
-   System.out.print("Output");
+   System.out.println("Output:\n");
     if (x > y && x > z)
       System.out.println(x);
     else if (y > x && y > z)
