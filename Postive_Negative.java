@@ -9,6 +9,7 @@ class Postive_Negative
             Scanner s = new Scanner(System.in);
             System.out.print("Input:\n");
             int n = s.nextInt();
+            System.out.print(n);
             System.out.println("\nOutput:\n");
             if(n > 0)
             {
