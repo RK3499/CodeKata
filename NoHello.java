@@ -1,6 +1,6 @@
 import java.util.Scanner;
  
-public class NoHello
+class NoHello
 {
   public static void main(String args[])
   {
