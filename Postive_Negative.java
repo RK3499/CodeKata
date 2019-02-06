@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Postive_Negative 
+class Postive_Negative 
 {
     public static void main(String[] args) throws Exception
     {
