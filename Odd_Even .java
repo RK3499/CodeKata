@@ -7,22 +7,22 @@ class Odd_Even
         try
         {
             Scanner s = new Scanner(System.in);
-            System.out.print("Input:\n");
+            System.out.print("Input:"+"\n");
             int n = s.nextInt();
             System.out.print(n);
             System.out.println("\nOutput:\n");
             if(n%2==0)
             {
                 
-                System.out.println("Even");
+                System.out.println("\nEven");
             }
             else if(n%2!=0)
             {
-                System.out.println("Odd");
+                System.out.println("\nOdd");
             }
             else
             {
-                System.out.println("Invalid");
+                System.out.println("\nInvalid");
             }
         }
         catch(Exception e)
