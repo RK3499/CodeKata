@@ -4,10 +4,8 @@ class Check_Leap_Year
     public static void main(String args[])
     {
         Scanner s = new Scanner(System.in);
-        System.out.println("Input:");
+        System.out.print("Input:\n");
         int year = s.nextInt();
-        System.out.println(year);
-        System.out.println("Output:");
         boolean flag = false;
         if(year % 400 == 0)
         {
