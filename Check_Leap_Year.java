@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Check_Leap_Year 
+class Check_Leap_Year 
 {
     public static void main(String args[])
     {
