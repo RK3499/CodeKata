@@ -7,7 +7,7 @@ class OddNumber
 	    int a,b,i;
 	    a=input.nextInt();
 	    b=input.nextInt();
-		for (i=a;i<=b;i++) 
+		for (i=a+1;i<=b;i++) 
 		{
 			if (i % 2 != 0) 
 			{
