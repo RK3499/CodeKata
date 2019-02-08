@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class OddNumber 
+class OddNumber 
 {
 	public static void main(String args[]) 
 	{
