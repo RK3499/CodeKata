@@ -4,10 +4,10 @@ class OddNumber
 	public static void main(String args[]) 
 	{
 	    Scanner input = new Scanner(System.in);
-	    int a,b;
+	    int a,b,i;
 	    a=input.nextInt();
 	    b=input.nextInt();
-		for (int i = a; i <= b; i++) 
+		for (i=a;i<=b;i++) 
 		{
 			if (i % 2 != 0) 
 			{
