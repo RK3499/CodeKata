@@ -1,6 +1,6 @@
 import java.util.Scanner; 
 
- public class  mul 
+class  mul 
  {  
    public static void main(String[] args) 
    {  
