@@ -1,5 +1,5 @@
 import java.util.*;
-class array
+class findNum
 {
     public static void main(String arg[])
     {
