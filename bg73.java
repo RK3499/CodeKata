@@ -1,6 +1,6 @@
 import java.util.*;
  
-class find
+class findnum
 {
    public static void main(String args[])
    {
