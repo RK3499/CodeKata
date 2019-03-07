@@ -1,5 +1,5 @@
 import java.util.*;
-class array
+class arraynum
 {
     public static void main(String arg[])
     {
