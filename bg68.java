@@ -17,5 +17,4 @@ import java.util.Scanner;
                 System.out.println("no");
             }
     }
-}
-© 2019 GitHub, Inc.
+} 
