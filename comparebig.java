@@ -30,7 +30,9 @@ class comparebig
 				    break;
 			    }
 		    }
-		    if(flg==1){System.out.println(str1);
+		    if(flg==1)
+		    {
+			    System.out.println(str1);
 		    }
         }
 	}
