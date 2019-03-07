@@ -1,6 +1,6 @@
 import java.util.*;
 import java.lang.*;
-class square
+class numsqr
 {
    public static void main(String args[])
    {
