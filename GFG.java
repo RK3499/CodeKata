@@ -1,22 +1,28 @@
 import java.io.*; 
 
 class GFG{ 
-	static boolean isNumber(String s) 
-	{ 
-		for (int i = 0; i < s.length(); i++) 
-		if (Character.isDigit(s.charAt(i)) 
-			== false) 
-			return false; 
+	public static void main(String[] args) 
+    {
+        Scanner s = new Scanner(System.in);  
+        String number = s.next(); 
+        boolean numeric = true;
 
-		return true; 
-	} 
-	static public void main (String[] args) 
-	{ 
-		String str = "6790"; 
-		if (isNumber(str)) 
-			System.out.println("Yes"); 
-		else
-			System.out.println("No"); 
-		
-	} 
+        try 
+        {
+            Double num = Double.parseDouble(number);
+        } 
+        catch (NumberFormatException e) 
+        {
+            numeric = false;
+        }
+
+        if(numeric)
+          {
+          System.out.println("yes");
+          }
+        else
+        {
+            System.out.println("No");
+        }
+    }
 } 
