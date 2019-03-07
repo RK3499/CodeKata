@@ -1,5 +1,5 @@
 import java.util.*;
-class concat
+class concatstr
 {
 	public static void main(String args[])
 	{
