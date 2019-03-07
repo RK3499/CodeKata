@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Numberword 
+class Numberword 
 {
     public static void main(String args[]){
         int m;
