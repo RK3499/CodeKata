@@ -19,6 +19,7 @@ import java.util.Scanner;
             number[j]=n;
             j++;
         }
-        for(i=number.length-1;i>=0;i--){Sstem.out.print(number[i]+" ");}
+        for(i=number.length-1;i>=0;i--)
+	{System.out.print(number[i]+" ");}
     }
 }
