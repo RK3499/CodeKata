@@ -1,6 +1,6 @@
 import java.util.*;
 import java.lang.*;
-class factors
+class factors13
 {
    public static void main(String args[])
    {
