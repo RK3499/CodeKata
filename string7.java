@@ -9,7 +9,7 @@ for(int i=0;i<array.length;i++){
 char a=array[i].charAt(0);
 char t=Character.toUpperCase(a);
 array[i]=array[i].replace(a,t);
-System.out.print(array[i]+" ");
+System.out.print(array[i]);
 }
 }
 }
